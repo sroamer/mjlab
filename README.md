@@ -35,6 +35,15 @@ git clone https://github.com/mujocolab/mjlab.git && cd mjlab
 uv run demo
 ```
 
+**Use venv**
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+uv sync
+uv run demo
+```
+
 For alternative installation methods (PyPI, Docker), see the [Installation Guide](https://mujocolab.github.io/mjlab/main/source/installation.html).
 
 ## Training Examples
